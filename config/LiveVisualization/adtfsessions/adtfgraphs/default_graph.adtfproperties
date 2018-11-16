@@ -1,0 +1,3818 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<property_file xmlns="adtf/xsd/properties">
+  <file_version>
+    <major>1</major>
+    <minor>0</minor>
+  </file_version>
+  <property_packages>
+    <property_package>
+      <name>default</name>
+      <property_sets>
+        <property_set>
+          <name>graphs/default_filter_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaminggraphdock/Filter Graph Dock</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaminggraphdock/Filter Graph Dock</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Arduino EgoMotion Sensor</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Arduino Ultrasonic Sensor</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Arduino Ultrasonic Sensor/output_pins/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Arduino EgoMotion Sensor/output_pins/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Arduino EgoMotion Sensor/output_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Arduino EgoMotion Sensor/output_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator</name>
+          <properties>
+            <property>
+              <name>Enable console log</name>
+              <value>false</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Arduino Ultrasonic Sensor/output_pins/rear_center</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Sample Stream._Filter Graph Dock.basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Arduino Ultrasonic Sensor.ultrasonic_struct_Sample Stream_1.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Sample Stream_1._Filter Graph Dock.ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Arduino EgoMotion Sensor.iner_meas_unit_Sample Stream_4.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Arduino EgoMotion Sensor.wheel_left_Sample Stream_2.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Arduino EgoMotion Sensor.wheel_right_Sample Stream_3.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Sample Stream_3._Filter Graph Dock.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Sample Stream_4._Filter Graph Dock.iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Sample Stream_2._Filter Graph Dock.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/steering_out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/speed_out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.speed_out_Arduino Actuator.speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.steering_out_Arduino Actuator.steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Arduino Battery Sensor</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Arduino Battery Sensor/output_pins/voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.turn_signal_left_Arduino Actuator.turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.turn_signal_right_Arduino Actuator.turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.hazard_light_Arduino Actuator.hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.reverse_light_Arduino Actuator.reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Arduino Battery Sensor.voltage_struct_Sample Stream_5.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Sample Stream_5._Filter Graph Dock.voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_laserscanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Sample Stream_6._Filter Graph Dock.laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Basler Camera</name>
+          <properties>
+            <property>
+              <name>frame_delay</name>
+              <value>20000</value>
+              <type>tInt64</type>
+            </property>
+            <property>
+              <name>frame_delay [ms]</name>
+              <value>20000</value>
+              <type>tInt64</type>
+            </property>
+            <property>
+              <name>streamHeight [Pixel]</name>
+              <value>960</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>streamWidth [Pixel]</name>
+              <value>1280</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>frame_delay [micro s]</name>
+              <value>100000</value>
+              <type>tInt64</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Universal Camera</name>
+          <properties>
+            <property>
+              <name>streamHeight</name>
+              <value>480</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>streamWidth</name>
+              <value>640</value>
+              <type>tInt32</type>
+            </property>
+            <property>
+              <name>flipVertical</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/rear_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Universal Camera/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_rear_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Universal Camera.output_Sample Stream_7.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Sample Stream_7._Filter Graph Dock.rear_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaminggraphdock/Filter Graph Dock</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Arduino Actuator/input_pins/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.brake_light_Arduino Actuator.brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.head_light_Arduino Actuator.head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Laser Scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Laser Scanner.output_Sample Stream_6.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Laser Scanner/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Basler Camera.video_rgb_stream_basler_rgb.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Basler Camera/output_pins/video_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaminggraphdock/Filter Graph Dock</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Arduino Ultrasonic Sensor</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Arduino EgoMotion Sensor</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Arduino Battery Sensor</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Basler Camera</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Rear Camera</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Laser Scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/sample_streams/stream_ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/Arduino Ultrasonic Sensor.ultrasonic_struct_sample_ultrasonic_struct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Arduino Ultrasonic Sensor/output_pins/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sinks/ADTFDAT File Recorder</name>
+          <properties>
+            <property>
+              <name>start_recording_on_startup</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/sample_ultrasonic_struct._ADTFDAT File Recorder.ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Arduino EgoMotion Sensor/output_pins/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Arduino EgoMotion Sensor/output_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Arduino EgoMotion Sensor/output_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Arduino Battery Sensor/output_pins/voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Basler Camera/output_pins/video_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/basler_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/sample_streams/stream_imu</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/Arduino EgoMotion Sensor.iner_meas_unit_stream_imu.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/stream_imu._ADTFDAT File Recorder.iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/sample_streams/stream_wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/Arduino EgoMotion Sensor.wheel_left_stream_wheel_left.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/stream_wheel_left._ADTFDAT File Recorder.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/sample_streams/stream_wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/Arduino EgoMotion Sensor.wheel_right_stream_wheel_right.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/stream_wheel_right._ADTFDAT File Recorder.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/sample_streams/stream_voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/Arduino Battery Sensor.voltage_struct_stream_voltage_struct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/stream_voltage_struct._ADTFDAT File Recorder.voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/sample_streams/stream_basler_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/Basler Camera.video_rgb_stream_basler_video.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/stream_basler_video._ADTFDAT File Recorder.basler_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/sample_streams/stream_rear_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/Rear Camera.output_stream_rear_video.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Rear Camera/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/stream_rear_video._ADTFDAT File Recorder.rear_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/rear_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/sample_streams/stream_laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/Laser Scanner.output_stream_laser_scanner.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sources/Laser Scanner/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/connections/stream_laser_scanner._ADTFDAT File Recorder.laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/recording_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/rear_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Fisheye Undistortion</name>
+          <properties>
+            <property>
+              <name>trigger/calibration file</name>
+              <value>../../../../configuration_files/camara_intr_calibration.yml</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>trigger/GPU processing</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_front_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Fisheye Undistortion/input_pins/input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_unsdistorted_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Fisheye Undistortion.output_stream_unsdistorted_video.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Fisheye Undistortion/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Marker Detector</name>
+          <properties>
+            <property>
+              <name>trigger/Calibration File</name>
+              <value>../../../../configuration_files/basler_afterFisheye_intrinsic_calibration.yml</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>trigger/Detector Parameter File</name>
+              <value>../../../../configuration_files/detector_params.yml</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>trigger/Show Roi</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>trigger/Marker Roi::height</name>
+              <value>1000.0</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Marker Roi::width</name>
+              <value>1500.0</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Marker Detector/input_pins/input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_marker_detector_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Marker Detector/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_road_sign_ext</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Marker Detector/output_pins/road_sign_ext</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/input_data_ports/front_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/input_data_ports/rear_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Front Camera</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Front Camera/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/sample_streams/stream_front_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/basler_video._stream_balser_video.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/stream_balser_video._Basler Camera.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Rear Camera</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/sample_streams/stream_rear_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/rear_video._stream_rear_video.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/stream_rear_video._Rear Camera.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Rear Camera/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaminggraphdock/Filter Graph Dock</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/Basler Camera</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_dock_in_ports/basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/Basler Camera/output_pins/video_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib/streaming_in_ports/basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/emergency_break_output_stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EmergencyBrake</name>
+          <properties>
+            <property>
+              <name>trigger/Minimum distance to object</name>
+              <value>350.0000</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Wifth of the vehicle</name>
+              <value>310.000000</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Minimum distance on sides</name>
+              <value>20.000000</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Field of view min angle</name>
+              <value>271.000000</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/EmergencyBrake.output_emergency_break_output_stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EmergencyBrake/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EmergencyBrake/input_pins/laserScanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Sanitized Lidar</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sample Stream._EmergencyBrake.laserScanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Side Right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Rear Right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Rear Center</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Rear Left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/Side Left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/LaneCenterSplitStream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/measuredSpeedStream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Marker Detector.output_stream_marker_detector_video.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Marker Detector.road_sign_ext_stream_road_sign_ext.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_unsdistorted_video._Marker Detector.input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Birds Eye View</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/input_data_ports/birds_eye_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/sample_streams/stream_birds_eye</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/birds_eye_video._Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/Sample Stream._Birds Eye View.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Birds Eye View/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Birds Eye Transform</name>
+          <properties>
+            <property>
+              <name>trigger/side inset at bottom [%]</name>
+              <value>0.464</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/side inset at top    [%]</name>
+              <value>0</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/ROIHeight  [%]</name>
+              <value>0.27</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/ROIOffsetY [%]</name>
+              <value>0.53</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_unsdistorted_video._Birds Eye Transform.in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Birds Eye Transform/input_pins/in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_birds_eye</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Birds Eye Transform.out_stream_birds_eye.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Birds Eye Transform/output_pins/out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_lane_detection</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_lane_center_split</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/output_data_ports/lane_center_split</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_lane_center_split._lane_center_split.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/input_data_ports/lane_detection_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/sample_streams/stream_lane_detection</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/lane_detection_video._Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Lane Detection</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/Sample Stream._Lane Detection.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Lane Detection/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/subgraphs/Camera Visualization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_basler_video._Camera Visualization.basler_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/subgraphs/Camera Handling</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/input_data_ports/front_video_undistorted</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Front Camera Undistorted</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/sample_streams/stream_front_video_undistorted</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/front_video_undistorted._stream_front_video_undistorted.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/stream_front_video_undistorted._Front Camera Undistorted.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Front Camera Undistorted/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_unsdistorted_video._Camera Visualization.front_video_undistorted</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_birds_eye._Camera Visualization.birds_eye_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_rear_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_rear_video._Camera Visualization.rear_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_lane_detection._Camera Visualization.lane_detection_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Camera Handling.lane_center_split_LaneCenterSplitStream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder</name>
+          <properties>
+            <property>
+              <name>start_recording_on_startup</name>
+              <value>false</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>filename</name>
+              <value>$(ADTF_SESSION_DIR)/record_20180913_200750.adtfdat</value>
+              <type>cFilename</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_rear_cam._ADTFDAT File Recorder.rear_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/rear_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_laserscanner._ADTFDAT File Recorder.laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_wheel_right._ADTFDAT File Recorder.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_wheel_left._ADTFDAT File Recorder.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_iner_meas_unit._ADTFDAT File Recorder.iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_ultrasonic_struct._ADTFDAT File Recorder.uss_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/uss_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_basler_rgb._ADTFDAT File Recorder.front_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/front_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_voltage_struct._ADTFDAT File Recorder.voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player</name>
+          <properties>
+            <property>
+              <name>filenames</name>
+              <value>../../../../../recording/final_curve_rausfliegen_remote.dat</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>start_on_startup</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/connections/ADTFDAT File Player.voltage_struct_Filter Graph Dock.voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/connections/ADTFDAT File Player.iner_meas_unit_Filter Graph Dock.iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/connections/ADTFDAT File Player.wheel_left_Filter Graph Dock.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/connections/ADTFDAT File Player.wheel_right_Filter Graph Dock.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/connections/ADTFDAT File Player.laser_scanner_Filter Graph Dock.laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Obstacle Map/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Obstacle Map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/distance_overall</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_obstacle_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Map_Stream._Map.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Marker Detection</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/input_data_ports/marker_detection_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/sample_streams/stream_marker_detection_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/marker_detection_video._stream_marker_detection_video.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/stream_marker_detection_video._Marker Detection.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Marker Detection/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_marker_detector_video._Camera Visualization.marker_detection_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/output_data_ports/road_sign_ext</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_road_sign_ext._road_sign_ext.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sanitized Sensor Visualization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorUltraSonic</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorLidar</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_uss_sanitized</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_uss_sanitized._Sensor Visualization.ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sanitized Sensor Visualization/input_pins/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/SensorUltraSonic.output_stream_uss_sanitized.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorUltraSonic/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/streaming_in_ports/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/ultrasonic_struct._SensorUltraSonic.input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorUltraSonic/input_pins/input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/streaming_in_ports/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/streaming_in_ports/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_wheel_left._Sensor Visualization.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sanitized Sensor Visualization/input_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_wheel_right._Sensor Visualization.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sanitized Sensor Visualization/input_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/streaming_in_ports/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/iner_meas_unit._Sensor Visualization.iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sanitized Sensor Visualization/input_pins/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/streaming_in_ports/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/laser_scanner._SensorLidar.input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorLidar/input_pins/input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/SensorLidar.output_stream_laser_scanner.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorLidar/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_laser_scanner._Sensor Visualization.laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sanitized Sensor Visualization/input_pins/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/streaming_in_ports/voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/voltage_struct._Sensor Visualization.voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sanitized Sensor Visualization/input_pins/voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/output_data_ports/sanitized_ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_uss_sanitized._sanitized_ultrasonic_struct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/output_data_ports/sanitized_us_sideright</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/output_data_ports/sanitized_us_sideleft</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/output_data_ports/sanitized_us_rearright</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/output_data_ports/sanitized_us_rearcenter</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/output_data_ports/sanitized_us_rearleft</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_us_sr</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_us_sl</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_us_rr</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_us_rc</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_us_rl</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_us_sr._sanitized_us_sideright.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_us_sl._sanitized_us_sideleft.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_us_rr._sanitized_us_rearright.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_us_rc._sanitized_us_rearcenter.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_us_rl._sanitized_us_rearleft.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/SensorUltraSonic.SideRight_stream_us_sr.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorUltraSonic/output_pins/SideRight</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/SensorUltraSonic.SideLeft_stream_us_sl.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorUltraSonic/output_pins/SideLeft</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/SensorUltraSonic.RearRight_stream_us_rr.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorUltraSonic/output_pins/RearRight</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/SensorUltraSonic.RearCenter_stream_us_rc.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorUltraSonic/output_pins/RearCenter</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/SensorUltraSonic.RearLeft_stream_us_rl.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/SensorUltraSonic/output_pins/RearLeft</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/output_data_ports/vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/output_data_ports/distance_overall</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_distance_overall</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_distance_overall._distance_overall.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_vehicle_speed._vehicle_speed.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/output_data_ports/sanitized_laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_laser_scanner._sanitized_laser_scanner.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/subgraphs/Sensor Sanitization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sensor Sanitization.sanitized_us_sideright_Side Right.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sensor Sanitization.sanitized_us_sideleft_Side Left.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sensor Sanitization.sanitized_us_rearright_Rear Right.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sensor Sanitization.sanitized_us_rearcenter_Rear Center.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sensor Sanitization.sanitized_us_rearleft_Rear Left.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sensor Sanitization.vehicle_speed_measuredSpeedStream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sensor Sanitization.distance_overall_distance_overall.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sensor Sanitization.sanitized_laser_scanner_Sanitized Lidar.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Marker Positioning</name>
+          <properties>
+            <property>
+              <name>MarkerPos/Optional Roadsign File</name>
+              <value>$(ADTF_SESSION_DIR)/adtfgraphs/roadSigns.xml</value>
+              <type>cFilename</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/output_data_ports/imu</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/sample_streams/stream_imu</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/iner_meas_unit._Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/Sample Stream._imu.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/streaming_in_ports/basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/basler_rgb._Fisheye Undistortion.input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/basler_rgb._stream_front_video.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/streaming_in_ports/rear_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/rear_cam._stream_rear_video.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_road_sign_ext</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Camera Handling.road_sign_ext_stream_road_sign_ext.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_road_sign_ext._Marker Positioning.road_sign_ext</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Marker Positioning/input_pins/road_sign_ext</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/measuredSpeedStream._Marker Positioning.speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Marker Positioning/input_pins/speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_imu</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sensor Sanitization.imu_stream_imu.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_imu._Marker Positioning.imu</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Marker Positioning/input_pins/imu</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/output_data_ports/emergency_break</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/emergency_break_output_stream._emergency_break.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/output_data_ports/measured_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/measuredSpeedStream._measured_vehicle_speed.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Marker Positioning/input_pins/road_sign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel</name>
+          <properties>
+            <property>
+              <name>trigger/Enable console log</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Marker Positioning.position_stream_position.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Marker Positioning/output_pins/position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_position._EnvironmentalModel.Position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/Position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Side Right._EnvironmentalModel.USSideRight</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/USSideRight</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Side Left._EnvironmentalModel.USSideLeft</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/USSideLeft</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Rear Right._EnvironmentalModel.USRearRight</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/USRearRight</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Rear Center._EnvironmentalModel.USRearCenter</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/USRearCenter</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Rear Left._EnvironmentalModel.USRearLeft</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/USRearLeft</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/TotalDistance</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/laserScanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/LaneCenterSplitStream._EnvironmentalModel.RelativeLanePositioning</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/RelativeLanePositioning</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/distance_overall._EnvironmentalModel.TotalDistance</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Sanitized Lidar._EnvironmentalModel.laserScanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/EnvironmentalModel.output_stream_obstacle_map.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/streaming_out_ports/turn_signal_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/streaming_out_ports/turn_signal_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/streaming_out_ports/hazard_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/streaming_out_ports/head_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/streaming_out_ports/brake_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/streaming_out_ports/reverse_light</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/subgraphs/Environment</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/stream_emergency</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/Environment.emergency_break_stream_emergency.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/stream_velocity</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/Environment.measured_vehicle_speed_stream_velocity.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/streaming_out_ports/speed_out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController</name>
+          <properties>
+            <property>
+              <name>trigger/Enable console log</name>
+              <value>false</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/mc_out_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/MissionController.out_speed_mc_out_speed.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/output_pins/out_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/streaming_out_ports/steering_out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/output_pins/out_steering_angle</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/output_pins/out_light_turnright</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/MissionController.out_light_turnright_turn_signal_right.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/MissionController.out_light_turnleft_turn_signal_left.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/output_pins/out_light_turnleft</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/MissionController.out_light_hazard_hazard_light.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/output_pins/out_light_hazard</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/MissionController.out_light_head_head_light.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/output_pins/out_light_head</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/MissionController.out_light_brake_brake_light.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/output_pins/out_light_brake</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/MissionController.out_light_reverse_reverse_light.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/output_pins/out_light_reverse</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_emergency._MissionController.in_emergency_brake</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/input_pins/in_emergency_brake</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/mc_out_emergency_brake</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/MissionController.out_emergency_brake_mc_out_emergency_brake.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/output_pins/out_emergency_brake</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/output_data_ports/envmodel_out_ego_state</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_envmodel_out_egostate</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_envmodel_out_egostate._envmodel_out_ego_state.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/EnvironmentalModel.egoStateStruct_stream_envmodel_out_egostate.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/output_pins/egoStateStruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/stream_egostate</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/Environment.envmodel_out_ego_state_stream_egostate.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_egostate._MissionController.in_ego_state</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/input_pins/in_ego_state</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Lane Detection</name>
+          <properties>
+            <property>
+              <name>trigger/Accuracy: Number of Lines</name>
+              <value>40</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/fieldOfView</name>
+              <value>70</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/maxLineWidth [Pixel]</name>
+              <value>7</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/minLineWidth [Pixel]</name>
+              <value>1</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/Accuracy: Steps per Degree</name>
+              <value>15</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/maximumLaneWidth</name>
+              <value>60</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/minimumSearchRadius</name>
+              <value>45</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/Maximum Angle Difference between two lines[°]</name>
+              <value>50</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/minimumLaneWidth</name>
+              <value>30</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/maximumSearchRadius</name>
+              <value>250</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/Show Lanedetection Lines (slow!)</name>
+              <value>false</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>trigger/Maximum Detection Distance for lines [Pixel]</name>
+              <value>60</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/Show calibration Infos: </name>
+              <value>false</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Lane Detection.out_stream_lane_detection.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Lane Detection/output_pins/out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Lane Detection.LaneCenterSplit_stream_lane_center_split.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Lane Detection/output_pins/LaneCenterSplit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_birds_eye._Lane Detection.in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Lane Detection/input_pins/in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/output_data_ports/object_detection_yolo</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_obj_detection_yolo</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Sample Stream._object_detection_yolo.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/input_data_ports/obj_detection_yolo</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Object Detection</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/sample_streams/stream_obj_detection_yolo</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/obj_detection_yolo._Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/connections/Sample Stream._Object Detection.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_visualization/filters/Object Detection/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_obj_detection_yolo._Camera Visualization.obj_detection_yolo</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Jury Communication TCP Sender</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Jury Communication TCP Receiver</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_out_ports/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Filter Graph Dock.stream_out_driverstruct_Jury Communication TCP Sender.driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Jury Communication TCP Sender/input_pins/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_in_tcp_jurystruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Jury Communication TCP Receiver.jury_struct_stream_in_tcp_jurystruct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_in_tcp_maneuverlist</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Jury Communication TCP Receiver.maneuver_list_stream_in_tcp_maneuverlist.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_in_tcp_odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Jury Communication TCP Receiver.open_drive_map_stream_in_tcp_odmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/open_drive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/sample_streams/stream_in_tcp_rsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Jury Communication TCP Receiver.road_sign_map_stream_in_tcp_rsmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/road_sign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/binding_proxys/Binding Proxy</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Jury Communication TCP Receiver.socket_Binding Proxy.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sources/Jury Communication TCP Receiver/binding_servers/socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/Binding Proxy._Jury Communication TCP Sender.socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/Jury Communication TCP Sender/binding_clients/socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_in_tcp_jurystruct._Filter Graph Dock.jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/od_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/subgraphs/jury_interaction</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/streaming_in_ports/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/streaming_in_ports/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/streaming_in_ports/od_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/streaming_in_ports/ts_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/streaming_out_ports/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/input_data_ports/jm_driver_state</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/sample_streams/stream_jm_driver_state</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/car_state._Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/output_data_ports/jm_jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/sample_streams/stream_jm_jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/stream_jm_jury_struct._jm_jury_struct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/sample_streams/stream_jm_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/sample_streams/stream_jm_odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/sample_streams/stream_jm_tsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/output_data_ports/jm_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/stream_jm_maneuver_list._jm_maneuver_list.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/output_data_ports/jm_odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/stream_jm_odmap._jm_odmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/output_data_ports/jm_tsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/stream_jm_tsmap._jm_tsmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/output_pins/out_driverstate</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/input_pins/in_jurystruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/input_data_ports/em_odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_em_odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_em_odmap._EnvironmentalModel.in_opendrive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/in_opendrive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/em_odmap._stream_em_odmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_em_tsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_em_tsmap._EnvironmentalModel.in_trafficsign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/in_trafficsign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/input_data_ports/em_tsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/em_tsmap._stream_em_tsmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/stream_jmi_mc_jurystruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/stream_jmi_mc_maneuverlist</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/jury_interaction.jm_jury_struct_stream_jmi_mc_jurystruct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_jmi_mc_jurystruct._MissionController.in_jurystruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/jury_interaction.jm_maneuver_list_stream_jmi_mc_maneuverlist.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_jmi_mc_maneuverlist._MissionController.in_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/input_pins/in_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/stream_mc_jmi_driverstate</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/MissionController.out_driverstate_stream_mc_jmi_driverstate.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_mc_jmi_driverstate._jury_interaction.jm_driver_state</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/stream_jmi_em_rsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/stream_jmi_em_odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_dock_in_ports/ts_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_in_tcp_rsmap._Filter Graph Dock.ts_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_in_tcp_odmap._Filter Graph Dock.od_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_in_tcp_maneuverlist._Filter Graph Dock.maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleReceiver</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/jury_struct._JuryModuleReceiver.in_jurystruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleReceiver/input_pins/in_jurystruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/maneuver_list._JuryModuleReceiver.in_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleReceiver/input_pins/in_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/od_map._JuryModuleReceiver.in_opendrive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleReceiver/input_pins/in_opendrive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/ts_map._JuryModuleReceiver.in_trafficsign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleReceiver/input_pins/in_trafficsign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/JuryModuleReceiver.out_jurystruct_stream_jm_jury_struct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleReceiver/output_pins/out_jurystruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/JuryModuleReceiver.out_maneuver_list_stream_jm_maneuver_list.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleReceiver/output_pins/out_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/JuryModuleReceiver.out_opendrive_map_stream_jm_odmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleReceiver/output_pins/out_opendrive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/JuryModuleReceiver.out_trafficsign_map_stream_jm_tsmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleReceiver/output_pins/out_trafficsign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleSender</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/stream_jm_driver_state._JuryModuleSender.in_carstate</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleSender/input_pins/in_carstate</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/connections/JuryModuleSender.out_carstate_driver_struct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/jury_interaction/filters/JuryModuleSender/output_pins/out_carstate</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/jury_interaction.jm_odmap_stream_jmi_em_odmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_jmi_em_odmap._Environment.em_odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/jury_interaction.jm_tsmap_stream_jmi_em_rsmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_jmi_em_rsmap._Environment.em_tsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_em_tsmap._Marker Positioning.road_sign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Object Detection Filter YOLO</name>
+          <properties>
+            <property>
+              <name>trigger/Detectionthreshold:</name>
+              <value>0.35</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/Debug Emergencycar</name>
+              <value>false</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>trigger/YOLO Max Object Distance</name>
+              <value>1700.000000</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/YOLO Angle Epsilon</name>
+              <value>5.00000</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_unsdistorted_video._Object Detection Filter YOLO.in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Object Detection Filter YOLO/input_pins/in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Object Detection Filter YOLO.out_stream_obj_detection_yolo.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Object Detection Filter YOLO/output_pins/out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/active_runners/Timer Runner</name>
+          <properties>
+            <property>
+              <name>timer_period_micro_sec</name>
+              <value>250000</value>
+              <type>tInt64</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Timer Runner._Object Detection Filter YOLO.trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Object Detection Filter YOLO/runners/trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/active_runners/Timer Runner</name>
+          <properties>
+            <property>
+              <name>timer_period_micro_sec</name>
+              <value>20000</value>
+              <type>tInt64</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Map Visualization</name>
+          <properties>
+            <property>
+              <name>Show Position Trace</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_position._Map Visualization.position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Map Visualization/input_pins/position</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/output_data_ports/envModel_out_openDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_openDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/EnvironmentalModel.openDriveMapAnalyzerInstanceSynchronization_stream_openDriveMapAnalyzerInstanceSynchronization.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/output_pins/openDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_openDriveMapAnalyzerInstanceSynchronization._envModel_out_openDriveMapAnalyzerInstanceSynchronization.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/stream_em_mc_openDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/Environment.envModel_out_openDriveMapAnalyzerInstanceSynchronization_stream_em_mc_openDriveMapAnalyzerInstanceSynchronization.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_em_mc_openDriveMapAnalyzerInstanceSynchronization._MissionController.OpenDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/MissionController/input_pins/OpenDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/subgraphs/jury_Module</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_sinks/Jury Communication TCP Sender</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_sources/Jury Communication TCP Receiver</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/binding_proxys/Binding Proxy</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/connections/Jury Communication TCP Receiver.socket_Binding Proxy.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_sources/Jury Communication TCP Receiver/binding_servers/socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/connections/Binding Proxy._Jury Communication TCP Sender.socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_sinks/Jury Communication TCP Sender/binding_clients/socket</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_dock_in_ports/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/connections/Jury Communication TCP Receiver.jury_struct_Filter Graph Dock.jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_dock_in_ports/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_dock_out_ports/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/connections/Filter Graph Dock.driver_struct_Jury Communication TCP Sender.driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_sinks/Jury Communication TCP Sender/input_pins/driver_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/connections/Jury Communication TCP Receiver.maneuver_list_Filter Graph Dock.maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/open_drive_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_sources/Jury Communication TCP Receiver/output_pins/road_sign_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_dock_in_ports/od_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/streaming_dock_in_ports/ts_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/connections/Jury Communication TCP Receiver.open_drive_map_Filter Graph Dock.od_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/devel_streaming_graph/connections/Jury Communication TCP Receiver.road_sign_map_Filter Graph Dock.ts_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/filters/MissionController</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/sample_streams/driverstate</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/connections/MissionController.out_driverstate_driverstate.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/filters/MissionController/output_pins/out_driverstate</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/connections/driverstate._jury_Module.jm_driver_state</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/sample_streams/jurystruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/connections/jury_Module.jm_jury_struct_jurystruct.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/connections/jurystruct._MissionController.in_jurystruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/filters/MissionController/input_pins/in_jurystruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/sample_streams/maneuverlist</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/connections/jury_Module.jm_maneuver_list_maneuverlist.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/connections/maneuverlist._MissionController.in_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/filters/MissionController/input_pins/in_maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/sample_streams/odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/connections/jury_Module.jm_odmap_odmap.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/connections/odmap._MissionController.OpenDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/devel_filter_graph/filters/MissionController/input_pins/OpenDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_openDriveMapAnalyzerInstanceSynchronization._Map Visualization.OpenDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/Map Visualization/input_pins/OpenDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib/filters/Camera Calibration</name>
+          <properties>
+            <property>
+              <name>Number of Datasets to use</name>
+              <value>50</value>
+              <type>tUInt64</type>
+            </property>
+            <property>
+              <name>Debug Output to Console</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>Square Size [m]</name>
+              <value>0.036</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>Delay [s]</name>
+              <value>2.000</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib/filters/Camera Calibration/input_pins/video_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Fisheye Undistortion/input_pins/input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Fisheye Undistortion/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Fisheye Undistortion</name>
+          <properties>
+            <property>
+              <name>trigger/calibration file</name>
+              <value>../../../../configuration_files/camara_intr_calibration.yml</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>trigger/GPU processing</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Birds Eye Transform/input_pins/in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Birds Eye Transform/output_pins/out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Birds Eye Transform</name>
+          <properties>
+            <property>
+              <name>trigger/ROIHeight  [%]</name>
+              <value>0.27</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/ROIOffsetY [%]</name>
+              <value>0.53</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/side inset at bottom [%]</name>
+              <value>0.464</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/BirdsEye/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/BirdsEye</name>
+          <properties>
+            <property>
+              <name>keep_ratio</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+            <property>
+              <name>fit_to_screen</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/streaming_in_ports/basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/sample_streams/stream_undistorted</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/sample_streams/Sample Stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/basler_rgb._Fisheye Undistortion.input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Fisheye Undistortion.output_Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Sample Stream._Birds Eye Transform.in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Sample Stream._Demo Qt Video Display.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/rear_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/uss_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/front_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/connections/ADTFDAT File Player.front_cam_Filter Graph Dock.basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player</name>
+          <properties>
+            <property>
+              <name>filenames</name>
+              <value>../../../../../recording/qualifying_ausparken.adtfdat</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>load_referenced_files</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sinks/ADTFDAT File Recorder</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/sample_streams/Sample Stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/connections/Basler Camera.video_rgb_Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/connections/Sample Stream._Filter Graph Dock.basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/connections/Sample Stream._ADTFDAT File Recorder.basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/rear_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/uss_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/front_cam</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/voltage_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/connections/ADTFDAT File Player.front_cam_Filter Graph Dock.basler_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Fisheye_undistoreted</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/stream_undistorted._Demo Qt Video Display_1.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Fisheye_undistoreted/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/input_data_ports/steering_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EmergencyBrake/input_pins/in_steeringAngle</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_steering_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/steering_in._stream_steering_in.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_steering_in._EmergencyBrake.in_steeringAngle</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/sample_streams/stream_steering_emergencybreak</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/MissionController.out_steering_angle_stream_steering_emergencybreak.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_steering_emergencybreak._Environment.steering_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_steering_emergencybreak._steering_out.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/input_data_ports/current_steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_current_steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/current_steering._Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_current_steering._Lane Detection.SteeringIn</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Lane Detection/input_pins/SteeringIn</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_steering_in._Camera Handling.current_steering</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/WheelSpeedController</name>
+          <properties>
+            <property>
+              <name>trigger/output_the maximum output value for the controller [%]</name>
+              <value>30</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/output_the minimum output value for the controller [%]</name>
+              <value>-20</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/PID_differential factor for PID Controller</name>
+              <value>0</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/PID_integral factor for PID Controller</name>
+              <value>15</value>
+              <type>tFloat64</type>
+            </property>
+            <property>
+              <name>trigger/PID_proportional factor for PID Controller </name>
+              <value>10</value>
+              <type>tFloat64</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/Timer Runner._WheelSpeedController.trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/WheelSpeedController/runners/trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/WheelSpeedController.actuator_output_speed_out.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/WheelSpeedController/output_pins/actuator_output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/stream_velocity._WheelSpeedController.measured_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/WheelSpeedController/input_pins/measured_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/mc_out_speed._WheelSpeedController.desired_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/WheelSpeedController/input_pins/desired_vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/connections/mc_out_emergency_brake._WheelSpeedController.emergency_break</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/mission_control/filters/WheelSpeedController/input_pins/emergency_break</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib/filters/Fisheye Undistortiondcw</name>
+          <properties>
+            <property>
+              <name>trigger/calibration file</name>
+              <value>../../../../configuration_files/camara_intr_calibration.yml</value>
+              <type>cFilename</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib/connections/basler_rgb._Fisheye Undistortiondcw.input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib/filters/Fisheye Undistortiondcw/input_pins/input</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib/filters/Fisheye Undistortiondcw/output_pins/output</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib/sample_streams/Sample Stream</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib/connections/Fisheye Undistortiondcw.output_Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_calib/connections/Sample Stream._Camera Calibration.video_rgb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/input_data_ports/egostate_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_egostate_yolo</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/egostate_in._stream_egostate_yolo.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_egostate_yolo._Object Detection Filter YOLO.EgoState</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Object Detection Filter YOLO/input_pins/EgoState</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/output_data_ports/zebra_detected</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_zebra_detection</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Lane Detection.ZebraCrossing_stream_zebra_detection.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Lane Detection/output_pins/ZebraCrossing</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_zebra_detection._zebra_detected.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_zebra_detection_detected</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Camera Handling.zebra_detected_stream_zebra_detection_detected.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_zebra_detection_detected._EnvironmentalModel.ZebraDetection</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/ZebraDetection</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_envmodel_out_egostate._Camera Handling.egostate_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_lanes_from_landedet</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Lane Detection.lanes_stream_lanes_from_landedet.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Lane Detection/output_pins/lanes</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/output_data_ports/lanes_from_landedet</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_lanes_from_landedet._lanes_from_landedet.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/sample_streams/stream_lanes_from_lanedet_to_envmodel</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/Camera Handling.lanes_from_landedet_stream_lanes_from_lanedet_to_envmodel.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/stream_lanes_from_lanedet_to_envmodel._EnvironmentalModel.lanes</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/lanes</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Object Detection Filter YOLO</name>
+          <properties>
+            <property>
+              <name>trigger/Config</name>
+              <value>../../../../src/aadcUser/ObjectDetection/yolov3.cfg</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>trigger/Namefile</name>
+              <value>../../../../src/aadcUser/ObjectDetection/coco.names</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>trigger/Weights</name>
+              <value>../../../../src/aadcUser/ObjectDetection/yolov3.weights</value>
+              <type>cFilename</type>
+            </property>
+            <property>
+              <name>trigger/Detectionthreshold:</name>
+              <value>0.35</value>
+              <type>tFloat32</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Object Detection Filter YOLO/input_pins/in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Object Detection Filter YOLO/output_pins/out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/active_runners/Timer Runner</name>
+          <properties>
+            <property>
+              <name>timer_period_micro_sec</name>
+              <value>200000</value>
+              <type>tInt64</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Timer Runner._Object Detection Filter YOLO.trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/Object Detection Filter YOLO/runners/trigger</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/stream_undistorted._Object Detection Filter YOLO.in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Birds Eye Transform.out_Sample Stream.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_egostate_yolo._Lane Detection.EgoState_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Lane Detection/input_pins/EgoState_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_in_tcp_rsmap._ADTFDAT File Recorder.tcp_rsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/tcp_rsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_in_tcp_odmap._ADTFDAT File Recorder.odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_in_tcp_maneuverlist._ADTFDAT File Recorder.maneuverlist</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/maneuverlist</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/connections/stream_in_tcp_jurystruct._ADTFDAT File Recorder.jurstruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/default_streaming_graph/streaming_sinks/ADTFDAT File Recorder/input_pins/jurstruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/tcp_rsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/maneuverlist</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_sources/ADTFDAT File Player/output_pins/jurstruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/connections/ADTFDAT File Player.jurstruct_Filter Graph Dock.jury_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/maneuver_list</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/connections/ADTFDAT File Player.maneuverlist_Filter Graph Dock.maneuverlist</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/od_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/connections/ADTFDAT File Player.odmap_Filter Graph Dock.odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/streaming_dock_in_ports/ts_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/playback_graph/connections/ADTFDAT File Player.tcp_rsmap_Filter Graph Dock.ts_map</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sensor Visualization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/ultrasonic_struct._Sensor Visualization.ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/wheel_right._Sensor Visualization.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/wheel_left._Sensor Visualization.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sensor Visualization/input_pins/ultrasonic_struct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sensor Visualization/input_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sensor Visualization/input_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/stream_imu._Sensor Visualization.iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sensor Visualization/input_pins/iner_meas_unit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/laser_scanner._Sensor Visualization.laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/Sensor Visualization/input_pins/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/WheelSpeedConverter</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/wheel_right._WheelSpeedConverter.wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/WheelSpeedConverter/input_pins/wheel_right</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/wheel_left._WheelSpeedConverter.wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/WheelSpeedConverter/input_pins/wheel_left</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/WheelSpeedConverter.wheel_left_plaus_stream_wheel_left.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/WheelSpeedConverter/output_pins/wheel_left_plaus</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/WheelSpeedConverter.wheel_right_plaus_stream_wheel_right.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/WheelSpeedConverter/output_pins/wheel_right_plaus</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/WheelSpeedConverter.vehicle_speed_stream_vehicle_speed.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/WheelSpeedConverter/output_pins/vehicle_speed</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/connections/WheelSpeedConverter.distance_overall_stream_distance_overall.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/sensor_sanitization/filters/WheelSpeedConverter/output_pins/distance_overall</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/filters/EnvironmentalModel/input_pins/EmergencyBrakeSignal</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/default_filter_graph/connections/emergency_break_output_stream._EnvironmentalModel.EmergencyBrakeSignal</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak Lane Detection</name>
+          <properties>
+            <property>
+              <name>trigger/fieldOfView</name>
+              <value>70.000000</value>
+              <type>tFloat32</type>
+            </property>
+            <property>
+              <name>trigger/maxLineWidth [Pixel]</name>
+              <value>7</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/maximumLaneWidth</name>
+              <value>60</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/maximumSearchRadius</name>
+              <value>250</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/minLineWidth [Pixel]</name>
+              <value>1</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/minimumLaneWidth</name>
+              <value>30</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/minimumSearchRadius</name>
+              <value>45</value>
+              <type>tUInt32</type>
+            </property>
+            <property>
+              <name>trigger/Show Lanedetection Lines (slow!)</name>
+              <value>true</value>
+              <type>tBool</type>
+            </property>
+          </properties>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/sample_streams/Sample Stream_1</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/CamTweak Lane Detection.LaneCenterSplit_Sample Stream_1.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak Lane Detection/output_pins/LaneCenterSplit</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak Lane Detection/input_pins/SteeringIn</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Sample Stream._CamTweak Lane Detection.in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak Lane Detection/input_pins/in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/LaneDetectionVideo</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/LaneDetection Debug</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/sample_streams/Sample Stream_2</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/CamTweak Lane Detection.debug_out_Sample Stream_2.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak Lane Detection/output_pins/debug_out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Sample Stream_2._LaneDetection Debug.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/LaneDetection Debug/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/sample_streams/Sample Stream_3</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/CamTweak Lane Detection.out_Sample Stream_3.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak Lane Detection/output_pins/out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Sample Stream_3._LaneDetectionVideo.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/LaneDetectionVideo/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/LaneDetectionDebug</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/sample_streams/stream_lane_detection_debug_video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/Lane Detection.debug_out_stream_lane_detection_debug_video.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/Lane Detection/output_pins/debug_out</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/connections/stream_lane_detection_debug_video._LaneDetectionDebug.video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_handling/filters/LaneDetectionDebug/input_pins/video</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak EnvironmentalModel</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/sample_streams/Sample Stream_4</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/CamTweak EnvironmentalModel.egoStateStruct_Sample Stream_4.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak EnvironmentalModel/output_pins/egoStateStruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Sample Stream_4._CamTweak Lane Detection.EgoState_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak Lane Detection/input_pins/EgoState_in</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Sample Stream_1._CamTweak EnvironmentalModel.RelativeLanePositioning</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak EnvironmentalModel/input_pins/RelativeLanePositioning</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_dock_in_ports/laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/connections/ADTFDAT File Player.laser_scanner_Filter Graph Dock.laser_scanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak EnvironmentalModel/input_pins/laserScanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak EnvironmentalModel/output_pins/openDriveMapAnalyzerInstanceSynchronization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/subgraphs/camtweak_sensor_sanitization</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/sample_streams/Sample Stream_7</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/sample_streams/Sample Stream_8</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/camtweak_sensor_sanitization.distance_overall_Sample Stream_8.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Sample Stream_8._CamTweak EnvironmentalModel.TotalDistance</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/filters/CamTweak EnvironmentalModel/input_pins/TotalDistance</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/camtweak_sensor_sanitization.sanitized_laser_scanner_Sample Stream_7.</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Sample Stream_7._CamTweak EnvironmentalModel.laserScanner</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>graphs/camera_tweaking/connections/Sample Stream_1._CamTweak Lane Detection.SteeringIn</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/tcp_rsmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/odmap</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/maneuverlist</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>streaming_graphs/camera_calib_graph/streaming_sources/ADTFDAT File Player/output_pins/jurstruct</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/kernel.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/reference_clock.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/signal_registry.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/media_description.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/qt_xsystem.ui_service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/log_view.ui_service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/sample_stream_tracer.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/sample_stream_trace_view.ui_service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/adtf_file_support.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/playback.service.adtf</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/signal_table_view.ui_service.adtf_disptb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/signal_tree_view.ui_service.adtf_disptb</name>
+          <properties/>
+        </property_set>
+        <property_set>
+          <name>services/signal_scope_view.ui_service.adtf_disptb</name>
+          <properties/>
+        </property_set>
+      </property_sets>
+    </property_package>
+  </property_packages>
+</property_file>

@@ -1,0 +1,85 @@
+_build_user
+_build_base
+_build_demo
+/_install
+
+
+# dont commit recordings
+*.adtfdat
+*.adtfdat.tmp
+*.adtfdat*.tmp
+
+#Dont commit macOS indexing files
+.DS_Store
+
+#Dont commit trizzeeeeees photos as they are way to large
+AADC_Photos/
+
+
+#AADC binaries
+_build*
+/_install
+cmake-build-debug
+cmake-build-debug/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Latex rubbish
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.synctex.gz
+
+# .idea Ordner
+.idea
+.idea/

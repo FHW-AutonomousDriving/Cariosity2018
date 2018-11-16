@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<configuration>		
+	<!-- Init signs -->
+    <roadSign id="19" x="5.200" y="1.200" radius="1.0" direction="180" init="1" name="One Way"/>
+    <roadSign id="17" x="1.000" y="0.000" radius="1.0" direction="-90" init="1" name="Autonomous 17"/>
+    <roadSign id="13" x="1.000" y="6.000" radius="1.0" direction="180" init="1" name="Speed Limit 50"/>
+    <roadSign id="6" x="3.000" y="3.200" radius="1.0" direction="180" init="1" name="Zera Crossing"/>
+
+    <roadSign id="3" x="1.200" y="1.800" radius="1.0" direction="90"/>
+	<roadSign id="3" x="-0.200" y="3.200" radius="1.0" direction="-90"/>
+	<roadSign id="1" x="1.200" y="3.100" radius="1.0" direction="180"/>
+
+    <!-- Parking -->
+    <roadSign id="2" x="1.800" y="6.200" radius="1.0" direction="90"/>
+	<roadSign id="2" x="4.200" y="6.200" radius="1.0" direction="90"/>
+
+    <roadSign id="3" x="3.800" y="4.800" radius="1.0" direction="0"/>
+	<roadSign id="3" x="5.200" y="6.200" radius="1.0" direction="180"/>
+	<roadSign id="5" x="5.200" y="4.800" radius="1.0" direction="90"/>
+
+    <!-- Central junction -->
+	<roadSign id="0" x="5.200" y="1.800" radius="1.0" direction="90"/>
+	<roadSign id="0" x="3.800" y="1.800" radius="1.0" direction="0"/>
+	<roadSign id="0" x="3.800" y="3.200" radius="1.0" direction="-90"/>
+
+	<roadSign id="3" x="5.200" y="1.200" radius="1.0" direction="180"/>
+	<roadSign id="5" x="3.800" y="1.200" radius="1.0" direction="0"/>
+
+	<!-- Parking -->
+    <parkingSpace id="0" x="2.250" y="6.000" direction="-90"/>
+    <parkingSpace id="1" x="2.750" y="6.000" direction="-90"/>
+    <parkingSpace id="2" x="3.250" y="6.000" direction="-90"/>
+    <parkingSpace id="3" x="3.750" y="6.000" direction="-90"/>
+</configuration>

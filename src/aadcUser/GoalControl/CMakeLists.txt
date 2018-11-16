@@ -1,0 +1,2 @@
+add_subdirectory(JuryModuleReceiver)
+add_subdirectory(JuryModuleSender)

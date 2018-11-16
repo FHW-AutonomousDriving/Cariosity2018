@@ -1,0 +1,5 @@
+Contents to add:
+------------------------------------
+
+- Helpers for input and output
+- Median Filter etc.

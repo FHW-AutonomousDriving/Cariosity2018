@@ -1,0 +1,223 @@
+cmake_minimum_required(VERSION 3.10)
+project(AADC2018)
+
+set(CMAKE_CXX_STANDARD 11)
+
+include_directories(src/aadcBase/arduino)
+include_directories(src/aadcBase/arduino/ArduinoActuator)
+include_directories(src/aadcBase/arduino/ArduinoBatterySensor)
+include_directories(src/aadcBase/arduino/ArduinoEgoMotionSensor)
+include_directories(src/aadcBase/arduino/ArduinoUSSensor)
+include_directories(src/aadcBase/arduino/helper)
+include_directories(src/aadcBase/position/MapVisualization)
+include_directories(src/aadcBase/position/MapVisualization/mapReader)
+include_directories(src/aadcBase/position/MarkerPositioning)
+include_directories(src/aadcDemo/algorithms/LaneDetection)
+include_directories(src/aadcDemo/algorithms/ObjectDetection)
+include_directories(src/aadcDemo/algorithms/WheelSpeedController)
+include_directories(src/aadcDemo/datafilter/Calibration)
+include_directories(src/aadcDemo/datafilter/CalibrationXML)
+include_directories(src/aadcDemo/datafilter/ConverterWheels)
+include_directories(src/aadcDemo/datafilter/FisheyeUndistortion)
+include_directories(src/aadcDemo/helper/CarController)
+include_directories(src/aadcDemo/helper/SensorVisualization)
+include_directories(src/aadcDemo/helper/SignalValueGenerator)
+include_directories(src/aadcDemo/jury/DriverModule)
+include_directories(src/aadcDemo/jury/JuryApplication)
+include_directories(src/aadcDemo/markers/MarkerDetector)
+include_directories(src/aadcDemo/sensor/BaslerCamera)
+include_directories(src/aadcDemo/sensor/CameraCalibration)
+include_directories(src/aadcDemo/sensor/LaserScanner)
+include_directories(src/aadcDemo/sensor/UniversalCamera)
+include_directories(src/aadcUser/EmergencyBrake)
+include_directories(src/aadcUser/OpenCVTemplate)
+include_directories(src/aadcUser/TemplateFilter)
+
+add_executable(AADC2018
+        src/aadcBase/arduino/ArduinoActuator/arduino_actuator.plugindescription
+        src/aadcBase/arduino/ArduinoActuator/ArduinoActuator.cpp
+        src/aadcBase/arduino/ArduinoActuator/ArduinoActuator.h
+        src/aadcBase/arduino/ArduinoActuator/CMakeLists.txt
+        src/aadcBase/arduino/ArduinoBatterySensor/arduino_battery_sensor.plugindescription
+        src/aadcBase/arduino/ArduinoBatterySensor/ArduinoBatterySensor.cpp
+        src/aadcBase/arduino/ArduinoBatterySensor/ArduinoBatterySensor.h
+        src/aadcBase/arduino/ArduinoBatterySensor/CMakeLists.txt
+        src/aadcBase/arduino/ArduinoEgoMotionSensor/arduino_egomotion_sensor.plugindescription
+        src/aadcBase/arduino/ArduinoEgoMotionSensor/ArduinoEgoMotionSensor.cpp
+        src/aadcBase/arduino/ArduinoEgoMotionSensor/ArduinoEgoMotionSensor.h
+        src/aadcBase/arduino/ArduinoEgoMotionSensor/CMakeLists.txt
+        src/aadcBase/arduino/ArduinoUSSensor/arduino_us_sensors.plugindescription
+        src/aadcBase/arduino/ArduinoUSSensor/ArduinoUSSensor.cpp
+        src/aadcBase/arduino/ArduinoUSSensor/ArduinoUSSensor.h
+        src/aadcBase/arduino/ArduinoUSSensor/CMakeLists.txt
+        src/aadcBase/arduino/helper/arduino_com_client.cpp
+        src/aadcBase/arduino/helper/arduino_com_client.h
+        src/aadcBase/arduino/helper/arduino_com_helpers.h
+        src/aadcBase/arduino/helper/arduino_protocol.h
+        src/aadcBase/arduino/helper/SerialDeviceBoost.cpp
+        src/aadcBase/arduino/helper/SerialDeviceBoost.h
+        src/aadcBase/arduino/helper/SimpleTimer.h
+        src/aadcBase/arduino/ArduinoBase.cpp
+        src/aadcBase/arduino/ArduinoBase.h
+        src/aadcBase/arduino/CMakeLists.txt
+        src/aadcBase/arduino/readme.dox
+        src/aadcBase/position/MapVisualization/mapReader/openDriveReader.cpp
+        src/aadcBase/position/MapVisualization/mapReader/openDriveReader.h
+        src/aadcBase/position/MapVisualization/mapReader/tinyxml2.cpp
+        src/aadcBase/position/MapVisualization/mapReader/tinyxml2.h
+        src/aadcBase/position/MapVisualization/CMakeLists.txt
+        src/aadcBase/position/MapVisualization/cMapVisualization.cpp
+        src/aadcBase/position/MapVisualization/cMapVisualization.h
+        src/aadcBase/position/MapVisualization/displaywidget.cpp
+        src/aadcBase/position/MapVisualization/displaywidget.h
+        src/aadcBase/position/MapVisualization/stdafx.h
+        src/aadcBase/position/MarkerPositioning/CMakeLists.txt
+        src/aadcBase/position/MarkerPositioning/MarkerPositioning.cpp
+        src/aadcBase/position/MarkerPositioning/MarkerPositioning.h
+        src/aadcBase/position/CMakeLists.txt
+        src/aadcBase/CMakeLists.txt
+        src/aadcBase/Readme_before_change_anything.txt
+        src/aadcDemo/algorithms/LaneDetection/CMakeLists.txt
+        src/aadcDemo/algorithms/LaneDetection/LaneDetection.cpp
+        src/aadcDemo/algorithms/LaneDetection/LaneDetection.h
+        src/aadcDemo/algorithms/LaneDetection/stdafx.h
+        src/aadcDemo/algorithms/ObjectDetection/CMakeLists.txt
+        src/aadcDemo/algorithms/ObjectDetection/ObjectDetection.cpp
+        src/aadcDemo/algorithms/ObjectDetection/ObjectDetection.h
+        src/aadcDemo/algorithms/ObjectDetection/stdafx.h
+        src/aadcDemo/algorithms/WheelSpeedController/CMakeLists.txt
+        src/aadcDemo/algorithms/WheelSpeedController/stdafx.h
+        src/aadcDemo/algorithms/WheelSpeedController/WheelSpeedController.cpp
+        src/aadcDemo/algorithms/WheelSpeedController/WheelSpeedController.h
+        src/aadcDemo/algorithms/CMakeLists.txt
+        src/aadcDemo/datafilter/Calibration/Calibration.cpp
+        src/aadcDemo/datafilter/Calibration/Calibration.h
+        src/aadcDemo/datafilter/Calibration/CMakeLists.txt
+        src/aadcDemo/datafilter/Calibration/stdafx.h
+        src/aadcDemo/datafilter/CalibrationXML/calibrationExampleFile.xml
+        src/aadcDemo/datafilter/CalibrationXML/CalibrationXML.cpp
+        src/aadcDemo/datafilter/CalibrationXML/CalibrationXML.h
+        src/aadcDemo/datafilter/CalibrationXML/cCubic.h
+        src/aadcDemo/datafilter/CalibrationXML/CMakeLists.txt
+        src/aadcDemo/datafilter/CalibrationXML/stdafx.h
+        src/aadcDemo/datafilter/ConverterWheels/CMakeLists.txt
+        src/aadcDemo/datafilter/ConverterWheels/ConverterWheels.cpp
+        src/aadcDemo/datafilter/ConverterWheels/ConverterWheels.h
+        src/aadcDemo/datafilter/ConverterWheels/stdafx.h
+        src/aadcDemo/datafilter/FisheyeUndistortion/CMakeLists.txt
+        src/aadcDemo/datafilter/FisheyeUndistortion/FisheyeUndistortion.cpp
+        src/aadcDemo/datafilter/FisheyeUndistortion/FisheyeUndistortion.h
+        src/aadcDemo/datafilter/FisheyeUndistortion/stdafx.h
+        src/aadcDemo/datafilter/CMakeLists.txt
+        src/aadcDemo/datafilter/Readme.txt
+        src/aadcDemo/helper/CarController/car_controller.ui
+        src/aadcDemo/helper/CarController/CarControllerFilter.cpp
+        src/aadcDemo/helper/CarController/CarControllerFilter.h
+        src/aadcDemo/helper/CarController/CarControllerWidget.cpp
+        src/aadcDemo/helper/CarController/CarControllerWidget.h
+        src/aadcDemo/helper/CarController/CMakeLists.txt
+        src/aadcDemo/helper/CarController/stdafx.h
+        src/aadcDemo/helper/SensorVisualization/aadc_simple_structs.h
+        src/aadcDemo/helper/SensorVisualization/CMakeLists.txt
+        src/aadcDemo/helper/SensorVisualization/FrameCounter.cpp
+        src/aadcDemo/helper/SensorVisualization/FrameCounter.h
+        src/aadcDemo/helper/SensorVisualization/sensor_visualization.ui
+        src/aadcDemo/helper/SensorVisualization/SensorVisualizationFilter.cpp
+        src/aadcDemo/helper/SensorVisualization/SensorVisualizationFilter.h
+        src/aadcDemo/helper/SensorVisualization/SensorVisualizationWidget.cpp
+        src/aadcDemo/helper/SensorVisualization/SensorVisualizationWidget.h
+        src/aadcDemo/helper/SensorVisualization/stdafx.h
+        src/aadcDemo/helper/SensorVisualization/uswidget.cpp
+        src/aadcDemo/helper/SensorVisualization/uswidget.h
+        src/aadcDemo/helper/SignalValueGenerator/CMakeLists.txt
+        src/aadcDemo/helper/SignalValueGenerator/SignalValueGenerator.cpp
+        src/aadcDemo/helper/SignalValueGenerator/SignalValueGenerator.h
+        src/aadcDemo/helper/SignalValueGenerator/stdafx.h
+        src/aadcDemo/helper/CMakeLists.txt
+        src/aadcDemo/jury/DriverModule/CMakeLists.txt
+        src/aadcDemo/jury/DriverModule/DriverModuleFilter.cpp
+        src/aadcDemo/jury/DriverModule/DriverModuleFilter.h
+        src/aadcDemo/jury/DriverModule/DriverModuleWidget.cpp
+        src/aadcDemo/jury/DriverModule/DriverModuleWidget.h
+        src/aadcDemo/jury/DriverModule/stdafx.h
+        src/aadcDemo/jury/JuryApplication/CMakeLists.txt
+        src/aadcDemo/jury/JuryApplication/JuryApp.cpp
+        src/aadcDemo/jury/JuryApplication/JuryApp.h
+        src/aadcDemo/jury/JuryApplication/main.cpp
+        src/aadcDemo/jury/JuryApplication/mainwindow.ui
+        src/aadcDemo/jury/JuryApplication/resources.qrc
+        src/aadcDemo/jury/CMakeLists.txt
+        src/aadcDemo/markers/MarkerDetector/aruco_helpers.h
+        src/aadcDemo/markers/MarkerDetector/CMakeLists.txt
+        src/aadcDemo/markers/MarkerDetector/MarkerDetector.cpp
+        src/aadcDemo/markers/MarkerDetector/MarkerDetector.h
+        src/aadcDemo/markers/MarkerDetector/stdafx.h
+        src/aadcDemo/markers/CMakeLists.txt
+        src/aadcDemo/sensor/BaslerCamera/BaslerCamera.cpp
+        src/aadcDemo/sensor/BaslerCamera/BaslerCamera.h
+        src/aadcDemo/sensor/BaslerCamera/CMakeLists.txt
+        src/aadcDemo/sensor/BaslerCamera/stdafx.h
+        src/aadcDemo/sensor/CameraCalibration/acircles_pattern.png
+        src/aadcDemo/sensor/CameraCalibration/calibrationSettings.h
+        src/aadcDemo/sensor/CameraCalibration/CameraCalibrationFilter.cpp
+        src/aadcDemo/sensor/CameraCalibration/CameraCalibrationFilter.h
+        src/aadcDemo/sensor/CameraCalibration/CameraCalibrationWidget.cpp
+        src/aadcDemo/sensor/CameraCalibration/CameraCalibrationWidget.h
+        src/aadcDemo/sensor/CameraCalibration/CMakeLists.txt
+        src/aadcDemo/sensor/CameraCalibration/pattern.png
+        src/aadcDemo/sensor/CameraCalibration/stdafx.h
+        src/aadcDemo/sensor/LaserScanner/CMakeLists.txt
+        src/aadcDemo/sensor/LaserScanner/LaserScanner.cpp
+        src/aadcDemo/sensor/LaserScanner/LaserScanner.h
+        src/aadcDemo/sensor/LaserScanner/stdafx.h
+        src/aadcDemo/sensor/UniversalCamera/CMakeLists.txt
+        src/aadcDemo/sensor/UniversalCamera/stdafx.h
+        src/aadcDemo/sensor/UniversalCamera/UniversalCamera.cpp
+        src/aadcDemo/sensor/UniversalCamera/UniversalCamera.h
+        src/aadcDemo/sensor/CMakeLists.txt
+        src/aadcDemo/CMakeLists.txt
+        src/aadcUser/cmake-build-debug/OpenCVTemplate/cmake_install.cmake
+        src/aadcUser/cmake-build-debug/OpenCVTemplate/Makefile
+        src/aadcUser/cmake-build-debug/OpenCVTemplate/opencv_template.adtfplugin
+        src/aadcUser/cmake-build-debug/OpenCVTemplate/opencv_template.cbp
+        src/aadcUser/cmake-build-debug/playground/cmake_install.cmake
+        src/aadcUser/cmake-build-debug/playground/Makefile
+        src/aadcUser/cmake-build-debug/playground/playground
+        src/aadcUser/cmake-build-debug/playground/playground.cbp
+        src/aadcUser/cmake-build-debug/TemplateFilter/cmake_install.cmake
+        src/aadcUser/cmake-build-debug/TemplateFilter/Makefile
+        src/aadcUser/cmake-build-debug/TemplateFilter/template_filter.adtfplugin
+        src/aadcUser/cmake-build-debug/TemplateFilter/template_filter.cbp
+        src/aadcUser/cmake-build-debug/aadc_user.cbp
+        src/aadcUser/cmake-build-debug/cmake_install.cmake
+        src/aadcUser/cmake-build-debug/CMakeCache.txt
+        src/aadcUser/cmake-build-debug/Makefile
+        src/aadcUser/EmergencyBrake/cmake-build-debug/CMakeCache.txt
+        src/aadcUser/EmergencyBrake/CMakeLists.txt
+        src/aadcUser/EmergencyBrake/EmergencyBrake.cpp
+        src/aadcUser/EmergencyBrake/EmergencyBrake.h
+        src/aadcUser/EmergencyBrake/stdafx.h
+        src/aadcUser/OpenCVTemplate/CMakeLists.txt
+        src/aadcUser/OpenCVTemplate/OpenCVTemplate.cpp
+        src/aadcUser/OpenCVTemplate/OpenCVTemplate.h
+        src/aadcUser/OpenCVTemplate/stdafx.h
+        src/aadcUser/TemplateFilter/CMakeLists.txt
+        src/aadcUser/TemplateFilter/stdafx.h
+        src/aadcUser/TemplateFilter/TemplateFilter.cpp
+        src/aadcUser/TemplateFilter/TemplateFilter.h
+        src/aadcUser/CMakeLists.txt
+        AADC_PRIVATE.cmake
+        AADCConfig.cmake
+        AADCConfigVersion.cmake
+        build_base.sh
+        build_demo.sh
+        build_user.sh
+        changelog.txt
+        licence.txt
+        Meilensteine.md
+        README.md
+        Readme.txt
+        src/aadcUser/Sensors/SensorUltraSonic/SensorUltraSonic.h
+        src/aadcUser/Sensors/SensorLidar/SensorLidar.h
+        src/aadcUser/Sensors/SensorEgoMotion.h
+)
